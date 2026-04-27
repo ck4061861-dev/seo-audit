@@ -143,7 +143,7 @@ function Hero({ onStart, blocked }) {
       </aside>
 
       {/* ── MAIN CONTENT ── */}
-      <main className="flex-1 overflow-y-auto flex flex-col min-w-0">
+      <main className="flex-1 overflow-y-auto flex flex-col min-w-0 pt-[55px]">
         <div className="p-6 md:p-10 flex-1">
           {blocked && (
             <div className="mb-6 rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-700">
@@ -153,12 +153,12 @@ function Hero({ onStart, blocked }) {
           {/* HOME */}
           {isHome && (
             <>
-              <div className="max-w-3xl mx-auto text-center mb-10">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              <div className="max-w-7xl mx-auto text-center mb-10">
+                <h1 className="text-7xl md:text-7xl min-w-full font-bold text-slate-600 mb-4 leading-tight">
                   Grow Faster with{" "}
-                  <span className="text-red-600">AI-Powered SEO. AEO. GEO</span>
+                  <span className="text-red-600">AI-Powered <br />SEO. AEO. GEO</span>
                 </h1>
-                <p className="text-gray-500 text-base md:text-lg leading-relaxed">
+                <p className="text-gray-500 text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
                   Analyze your website across SEO, AEO, and GEO signals. Get
                   real insights, fix issues faster, and boost visibility across
                   search engines & AI platforms.
