@@ -26,6 +26,9 @@ function Hero({ onStart, blocked }) {
     { path: "/seo", label: "SEO Check", icon: "📈" },
     { path: "/aeo", label: "AEO Analysis", icon: "🤖" },
     { path: "/geo", label: "GEO Visibility", icon: "🌍" },
+    { path: "/Com-Analysis", label: "Company Analysis", icon: "🏢" },
+    { path: "/Keyword-Research", label: "Keyword Research", icon: "🔍" },
+    { path: "/Ad", label: "Ads Suggestions", icon: "📢" },
     { path: "/reports", label: "Reports", icon: "📊" },
     { path: "/settings", label: "Settings", icon: "⚙️" },
   ];
@@ -59,7 +62,7 @@ function Hero({ onStart, blocked }) {
           fixed top-0 h-full z-30 bg-white border-r flex flex-col
           transition-all duration-300 ease-in-out overflow-hidden
           ${sidebarOpen ? "left-0 w-64 md:w-64" : "-left-64 w-64 md:w-16"}
-          md:static md:left-0 hidden
+          md:static 
         `}
       >
         <div className="w-64 md:w-auto flex flex-col h-full">
