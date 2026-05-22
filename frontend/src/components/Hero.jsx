@@ -23,12 +23,9 @@ function Hero({ onStart, blocked }) {
 
   const navItems = [
     { path: "/", label: "Site Audit", icon: "🔍" },
-    { path: "/seo", label: "SEO Check", icon: "📈" },
-    { path: "/aeo", label: "AEO Analysis", icon: "🤖" },
-    { path: "/geo", label: "GEO Visibility", icon: "🌍" },
-    { path: "/Com-Analysis", label: "Company Analysis", icon: "🏢" },
+    { path: "/Company-Analysis", label: "Company Analysis", icon: "🏢" },
     { path: "/Keyword-Research", label: "Keyword Research", icon: "🔍" },
-    { path: "/Ad", label: "Ads Suggestions", icon: "📢" },
+    { path: "/Add", label: "Ads Suggestions", icon: "📢" },
     { path: "/reports", label: "Reports", icon: "📊" },
     { path: "/settings", label: "Settings", icon: "⚙️" },
   ];
